@@ -1,4 +1,4 @@
-# Glyph-Hop 🕹️
+# Glyph-Hop 
 
 > An ultra-fast, flicker-free arcade obstacle-dodging game crafted for the upcoming **S3 Lucid** (ESP32-S3) development board by [PCB Cupid](https://github.com/pcbcupid).
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Glyph-Hop** is a high-performance arcade side-scroller developed specifically for the next-generation **S3 Lucid** development board. Leveraging the dual-core ESP32-S3 microcontroller and an integrated 160×80 Mini-TFT display, Glyph-Hop brings responsive retro gameplay with custom physics, procedural pipe generation, and zero-flicker delta slice rendering.
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📸 Media & Hardware Showcase
+##  Media & Hardware Showcase
 
 ### S3 Lucid Hardware
 The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 with a built-in 160×80 Mini-TFT display and a three-button tactile control layout.
@@ -45,7 +45,7 @@ The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 wi
 
 ---
 
-## ⚡ Key Highlights
+##  Key Highlights
 
 - **Silky 50 FPS Physics Engine:** Hard-locked 20ms frame cycle with smooth gravity, flap impulsing, and sub-pixel bounding-box collision detection.
 - **Zero-Flicker Delta Slice Rendering:** Erases only trailing pixel columns and paints new leading edge slices across SPI instead of clearing entire frames or drawing solid rectangles.
@@ -60,7 +60,7 @@ The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 wi
 
 ---
 
-## 🕹️ Controls & Navigation
+##  Controls & Navigation
 
 The **S3 Lucid** board features three dedicated tactile pushbuttons wired with internal pull-ups (`INPUT_PULLUP`, active `LOW`):
 
@@ -72,7 +72,7 @@ The **S3 Lucid** board features three dedicated tactile pushbuttons wired with i
 
 ---
 
-## 🛠️ Hardware Pinout & Architecture
+##  Hardware Pinout & Architecture
 
 ### ST7735 Mini 160×80 SPI Display
 
@@ -95,7 +95,7 @@ The **S3 Lucid** board features three dedicated tactile pushbuttons wired with i
 
 ---
 
-## ⚙️ Game Physics & Tuning Constants
+##  Game Physics & Tuning Constants
 
 All physical constants and gameplay parameters are decoupled in `Glyph-Hop.ino`:
 
@@ -113,7 +113,7 @@ All physical constants and gameplay parameters are decoupled in `Glyph-Hop.ino`:
 
 ---
 
-## 🎨 Rich Arcade Color Palette (RGB565)
+##  Rich Arcade Color Palette (RGB565)
 
 | Color Token | RGB565 Hex | Visual Role |
 | :--- | :---: | :--- |
@@ -128,7 +128,7 @@ All physical constants and gameplay parameters are decoupled in `Glyph-Hop.ino`:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites & Dependencies
 
@@ -183,7 +183,7 @@ This reduces SPI transaction traffic per frame by over **85%**, maintaining a ro
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Glyph-Hop/
@@ -196,14 +196,8 @@ Glyph-Hop/
 
 ---
 
-## 🤝 Community & Credits
-
-- Hardware & Board Design: **[PCB Cupid](https://pcbcupid.com/)**
-- Target Platform: **S3 Lucid** (ESP32-S3)
-- Graphics & Firmware Engineering: Built with the [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library) ecosystem
-
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and released under the [MIT License](LICENSE). Feel free to modify, extend, and share!
